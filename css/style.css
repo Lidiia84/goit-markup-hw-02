@@ -11,10 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--color-primary-bg);
 }
+
 .list {
     list-style: none;
 }
-
 
 .logo {
   color: black;
@@ -79,7 +79,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.button {
+.button-hero {
   background-color: var(--color-text-action);
   color: #ffffff;
   cursor: pointer;
@@ -89,7 +89,7 @@ body {
   font-weight: 700;
 }
 
-.btn {
+.button-filter {
   background-color: #f5f4fa;
   font-family: inherit;
   font-size: 16px;
@@ -97,7 +97,7 @@ body {
   font-weight: 500;
 }
 
-.btn:hover {
+.button-filter:hover {
   background-color: #2196f3;
 }
 
