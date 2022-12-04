@@ -65,6 +65,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .visually-hidden {
@@ -89,16 +90,26 @@ body {
   font-weight: 700;
 }
 
+.button-hero:hover {
+  background-color: #188CE8;
+}
+
+.button-hero:focus {
+  background-color: #188CE8;
+}
+
 .button-filter {
   background-color: #f5f4fa;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.62;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .button-filter:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 
 .button:hover {
@@ -112,6 +123,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .main-title {
@@ -135,15 +147,22 @@ body {
 
 .lead {
   color: var(--color-primary);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
 }
 
 .text {
   color: var(--color-secondary);
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
 }
 
 /*Наша команда*/
 .section-team {
   background-color: #f5f4fa;
+  list-style: none;
 }
 
 .team-list-item {
@@ -155,10 +174,24 @@ body {
   background-color: var(--color-secondary-bg);
    }
 
+   .logo-footer {
+    color: var(--color-primary-bg);
+   }
+
 .adress {
   color: #ffffff;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.adress-nav {
+  color: var(--color-secondary);
+}
+
+.adress-nav:hover {
+  color: var(--color-text-action);
 }
