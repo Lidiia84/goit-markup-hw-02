@@ -14,7 +14,6 @@ body {
 
 .list {
     list-style: none;
-    width: 370px;
 }
 
 .logo {
@@ -37,6 +36,10 @@ body {
 .nav-header:hover {
   color: var(--color-text-action);
   cursor: pointer;
+}
+ 
+.nav-header:focus {
+  color: var(--color-text-action);
 }
 
 .link-logo {
@@ -67,7 +70,7 @@ body {
   line-height: 1.36;
   font-weight: 900;
   text-transform: uppercase;
-}
+  }
 
 .point {
   list-style: none;
@@ -96,15 +99,15 @@ body {
 }
 
 .button-hero:hover {
-  background-color: #188CE8;
+  background-color: var(--color-text-action)
 }
 
 .button-hero:focus {
-  background-color: #188CE8;
+  background-color: var(--color-text-action)
 }
 
 .button-filter {
-  background-color: #f5f4fa;
+  background-color: var(--color-bg-team);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.62;
@@ -143,10 +146,19 @@ body {
   font-weight: 500;
 }
 
+.section-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
 .subtitle {
   color: var(--color-secondary);
-  font-size: 16px;
-  line-height: 1.17;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .lead {
@@ -158,14 +170,13 @@ body {
 
 .text {
   color: var(--color-secondary);
-  font-weight: 400;
-    font-size: 16px;
-    line-height: 1,88;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /*Наша команда*/
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--color-bg-team)
   list-style: none;
 }
 
@@ -180,17 +191,25 @@ body {
 
    .logo-footer {
     color: var(--color-primary-bg);
-   }
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    font-weight: 1.38;
+}
 
-.adress {
+.address {
+  font-style: normal;
+}
+
+.address-link {
   color: var(--color-primary-bg);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
   text-decoration: none;
-  font-style: normal;
-}
+ }
 
 .adress-nav {
   color: var(--color-secondary);
@@ -198,4 +217,8 @@ body {
 
 .adress-nav:hover {
   color: var(--color-text-action);
+}
+
+.link {
+  text-decoration: none;
 }
