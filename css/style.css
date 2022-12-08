@@ -5,6 +5,7 @@
   --color-primary-bg: #ffffff;
   --color-secondary-bg: #2f303a;
   --color-bg-team: #f5f4fa;
+  --color-button-action: #188ce8;
 }
 
 body {
@@ -58,6 +59,10 @@ body {
   color: var(--color-text-action);
 }
 
+.auth-nav:focus {
+  color: var(--color-text-action);
+}
+
 /*Герой*/
 
 .hero-section {
@@ -70,6 +75,7 @@ body {
   line-height: 1.36;
   font-weight: 900;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
   }
 
 .point {
@@ -99,11 +105,11 @@ body {
 }
 
 .button-hero:hover {
-  background-color: var(--color-text-action)
+  background-color: var(--color-button-action);
 }
 
 .button-hero:focus {
-  background-color: var(--color-text-action)
+  background-color: var(--color-button-action);
 }
 
 .button-filter {
@@ -115,7 +121,8 @@ body {
   cursor: pointer;
 }
 
-.button-filter:hover {
+.button-filter:hover,
+.button-filter:focus {
   background-color: var(--color-text-action);
   color: var(--color-primary-bg);
 }
@@ -131,7 +138,6 @@ body {
   font-size: 14px;
   line-height: 1.17;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .main-title {
@@ -176,7 +182,7 @@ body {
 
 /*Наша команда*/
 .section-team {
-  background-color: var(--color-bg-team)
+  background-color: var(--color-bg-team);
   list-style: none;
 }
 
@@ -195,7 +201,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    font-weight: 1.38;
+    line-height: 1.38;
 }
 
 .address {
@@ -215,7 +221,8 @@ body {
   color: var(--color-secondary);
 }
 
-.adress-nav:hover {
+.adress-nav:hover,
+.adress-nav:focus {
   color: var(--color-text-action);
 }
 
